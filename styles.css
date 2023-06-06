@@ -1,0 +1,43 @@
+body {
+    font-family: Helvetica;
+    text-align: center;
+    color: black ;
+    background-color: #15ac8b;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid rgb(134, 24, 4);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+ul li {
+    margin-right: 15px;
+}
+
+ul li a {
+    color: black;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+img {
+    border: 5px solid #14005a;
+}
+
+footer {
+    padding: 20px;
+    border-top: 1px solid rgb(134, 24, 4);
+    margin-top: 50px;
+}
